@@ -15,4 +15,8 @@ $(function(){
 	});
 });
 
-console.log("teste");
+/*
+
+Este código esta fazendo com que as setas next e prev do slider não funcionem 
+
+*/

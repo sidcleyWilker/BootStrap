@@ -29,3 +29,11 @@ section {
 	background-color: #F5F5F5;
 }
 
+.sevico_item {
+	text-align: justify;
+}
+
+.sevico_item h4 {
+	margin-top: 30px;
+	font-size: 30px;
+}
