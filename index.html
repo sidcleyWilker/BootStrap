@@ -11,7 +11,7 @@
     <link href="css/estilo.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
     
       <!-- Menu da aplicação -->
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -26,7 +26,7 @@
             <a href="#page-top" class="navbar-brand">Logo Marca</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="menu-navegacao">
+          <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#page-top"></a></li>
               <li>
@@ -106,33 +106,63 @@
       <!-- // Slider da aplicação -->
 
       <!-- Serviços -->
-      <div id="servicos">
-        <h1>Serviços</h1>
-      </div>
+      <section id="servicos"> 
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="page-header">
+              <h1>Serviços <small>Conheça oque fazemos</small></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- // Serviços -->
 
       <!-- Portfolio -->
-      <div id="portfolio">
-        <h1>Portfolio</h1>
-      </div>
+      <section id="portfolio" class="div_colorida">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="page-header">
+              <h1>Portfolio <small>Conheça nossos trabalhos</small></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- // Portfolio -->
 
       <!-- Quem somos -->
-      <div id="quemsomos">
-        <h1>Quem somos</h1>
-      </div>
+      <section id="quemsomos">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="page-header">
+              <h1>Quem somos<small>Conheça nossa História</small></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- // Quem somos -->
 
       <!-- Localização -->
-      <div id="localizacao">
-        <h1>Localização</h1>
-      </div>
+      <section id="localizacao" class="div_colorida">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="page-header">
+              <h1>Localização<small>Veja onde estamos</small></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- // Localização-->
 
       <!-- Contato -->
-      <div id="contato">
-        <h1>Contato</h1>
-      </div>
+      <section id="contato">
+        <div class="container">
+          <div class="col-xs-12">
+            <div class="page-header">
+              <h1>Contato<small>Fale conosco agora mesmo:</small></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- // Contato -->
 
       <footer>
@@ -141,6 +171,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/myjs.js"></script>
   </body>
 
 </html>

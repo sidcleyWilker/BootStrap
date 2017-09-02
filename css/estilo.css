@@ -8,6 +8,12 @@ body {
 	padding-top: 50px;
 }
 
+section {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	min-height: 100vh;
+}
+
 .navbar-brand {
 	font-weight: 700;
 }
@@ -15,6 +21,11 @@ body {
 .divslider {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	/* background: url("../imgs/background.jpg"); */
-
+	/* background: url("../imgs/background.jpg"); 
+	background-color: #BEBEBE; */
 }
+
+.div_colorida {
+	background-color: #F5F5F5;
+}
+
