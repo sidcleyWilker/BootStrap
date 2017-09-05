@@ -19,7 +19,8 @@ section {
 }
 
 .divslider {
-	padding-top: 15px;
+	min-height: 100vh;
+	padding-top: 100px;
 	padding-bottom: 15px;
 	/* background: url("../imgs/background.jpg"); 
 	background-color: #BEBEBE; */
