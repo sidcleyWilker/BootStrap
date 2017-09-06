@@ -45,11 +45,6 @@
                 <a href="#contato" class="">Contato</a>
               </li>
             </ul>
-
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
           </div>
 
         </div>
@@ -308,9 +303,51 @@
       <!-- Contato -->
       <section id="contato">
         <div class="container">
-          <div class="col-xs-12">
-            <div class="page-header">
-              <h1>Contato<small>Fale conosco agora mesmo:</small></h1>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="page-header">
+                <h1>Contato <small>Fale conosco agora mesmo:</small></h1>
+              </div>
+            </div>
+
+            <div class="row contato">
+              <div class="col-xs-12">
+                <p class="btn-success aviso">preencha o formulario abaixo para entra em contato conosco</p>
+              </div>
+            </div>
+
+            <div class="row contato">
+              <div class="col-xs-12">
+                <form name="frmContato" id="frmContato">
+                  
+                  <div class="row">
+                    <div class="col-md-6">
+                      
+                      <div class="form-group">
+                        <input type="text" class="form-control input-lg" placeholder="Qual o seu nome ?*" required />
+                      </div>
+
+                      <div class="form-group">
+                        <input type="email" class="form-control input-lg" placeholder="Qual o seu email ?*" required />
+                      </div>
+
+                      <div class="form-group">
+                        <input type="tel" class="form-control input-lg" placeholder="Qual o seu telefone ?" />
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <textarea class="form-control" placeholder="Deixe sua menssagem *" required ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <button type="submit" class="btn btn-success btn-lg" >Enviar Formulariox  </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -318,7 +355,17 @@
       <!-- // Contato -->
 
       <footer>
-        Rodapé da Página
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10">
+              Imformaoes gerais sobre a empresa, endereço, email, etc.
+            </div>
+            <div  class="col-sm-2 text-right">
+              <small>Desenvolvido por</small>
+              <strong>Sidcley Wilker</strong>
+            </div>
+          </div>
+        </div>
       </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
