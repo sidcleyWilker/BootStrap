@@ -2,3 +2,11 @@ body {
 	background: url(../imgs/background2.png);
 }
 
+.panel {
+	margin-bottom: 0px;
+}
+
+.panel a{
+	text-decoration: none;
+	color: black;
+}
