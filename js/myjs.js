@@ -1,6 +1,6 @@
 
 $(function(){
-	$('a[href*=\\#]:not([href=\\#])').click(function(){
+	$('#menu-navegacao').find('a').click(function(){
 		if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
 			&& location.hostname == this.hostname){
 			var target = $(this.hash);
@@ -14,9 +14,3 @@ $(function(){
 		}
 	});
 });
-
-/*
-
-Este código esta fazendo com que as setas next e prev do slider não funcionem 
-
-*/
